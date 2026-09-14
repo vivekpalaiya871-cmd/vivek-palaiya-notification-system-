@@ -31,8 +31,8 @@ Frontend runs at: **`http://localhost:5173`**
 
 | Role | Username | Password | Email | Features |
 |---|---|---|---|---|
-| **Admin** | `admin` | `admin123` | `ayush.kansal321@gmail.com` | Full Admin Matrix, Templates, Toggles, Logs |
-| **Demo User** | `ayush` | `user123` | `ayush.kansal321@gmail.com` | User Portal, Push Subscriber, Triggers Notifications |
+| **Admin** | `admin` | `admin123` | `vivekprajapati151@gmail.com| Full Admin Matrix, Templates, Toggles, Logs |
+| **Demo User** | `ayush` | `user123` | vivekprajapati151@gmail.com| User Portal, Push Subscriber, Triggers Notifications |
 
 ---
 
@@ -61,7 +61,7 @@ FRONTEND_URL=http://localhost:5173
 # WhatsApp (Twilio Sandbox - Recommended)
 TWILIO_ACCOUNT_SID=your_twilio_account_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
-TWILIO_WHATSAPP_FROM=whatsapp:+14155238886
+TWILIO_WHATSAPP_FROM=whatsapp: 
 WHATSAPP_TEST_RECIPIENT=+91XXXXXXXXXX
 
 # Email (Resend)
@@ -93,7 +93,7 @@ Set these in **Render Dashboard > Environment**:
 - `RESEND_TEST_RECIPIENT`: Your recipient email for testing
 - `TWILIO_ACCOUNT_SID`: (Optional) Twilio Account SID
 - `TWILIO_AUTH_TOKEN`: (Optional) Twilio Auth Token
-- `TWILIO_WHATSAPP_FROM`: (Optional) `whatsapp:+14155238886`
+- `TWILIO_WHATSAPP_FROM`: (Optional) `whatsapp: 
 - `WHATSAPP_TEST_RECIPIENT`: (Optional) Your WhatsApp phone number in E.164 format
 
 ---
