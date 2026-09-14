@@ -11,7 +11,7 @@ NotifySync is a full-stack notification management system featuring a unified si
 cd backend
 # Activate virtual environment
 ..\venv\Scripts\activate  # or venv\Scripts\activate
-python manage.py migrate
+python manage.py migrat
 python manage.py seed_data
 python manage.py runserver 8000
 ```
